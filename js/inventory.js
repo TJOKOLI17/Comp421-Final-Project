@@ -1,9 +1,9 @@
 function addToInventory() {
-    var nameInput = document.getElementById("name").value;
-    var amountInput = document.getElementById("amount").value;
-    var expYearInput = document.getElementById("expiration-year").value;
-    var expMonthInput = document.getElementById("expiration-month").value;
-    var expDayInput = document.getElementById("expiration-day").value;
+    const nameInput = document.getElementById("name").value;
+    const amountInput = document.getElementById("amount").value;
+    const expYearInput = document.getElementById("expiration-year").value;
+    const expMonthInput = document.getElementById("expiration-month").value;
+    const expDayInput = document.getElementById("expiration-day").value;
 
     
 
@@ -18,8 +18,8 @@ function addToInventory() {
         document.getElementById("expiration-day").value = "";
 
         // Display the entered data in a list
-        var inventoryList = document.getElementById("inventoryList");
-        var listItem = document.createElement("li");
+        const inventoryList = document.getElementById("inventoryList");
+        const listItem = document.createElement("li");
         listItem.innerHTML = 
         `Name: ${nameInput}<br> 
         Amount: ${amountInput}<br>  
