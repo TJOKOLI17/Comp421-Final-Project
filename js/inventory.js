@@ -5,7 +5,6 @@ function addToInventory() {
     var expMonthInput = document.getElementById("expiration-month").value;
     var expDayInput = document.getElementById("expiration-day").value;
 
-    console.log(nameInput, amountInput, expDayInput, expDayInput, expYearInput);
     
 
     if(!nameInput || !amountInput || !expYearInput || !expMonthInput || !expDayInput){
